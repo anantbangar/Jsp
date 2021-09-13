@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP16RegistrationForm"/>
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP15MVC"/>
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP14ExpressionLanguage(EL)"/>
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP13UseBean"/>
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP12ActionElements"/>
+			<item value="D:\My Work\JAVA\Advanced Java Programs\JSP\JSP11ImplicitObjects"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP10JSTLSqlTags"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP09JSTLFunctionTags"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP08JSTLCoreTags"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP07RemovingJspFrmURL"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP06Redirect"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP05CustomTagWithAttribute"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP04CustomTag"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP03ErrorHandlingAnd404"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP02ErrorHandling"/>
+			<item value="D:\My Work\Advanced Java Programs\JSP\JSP01Tags"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

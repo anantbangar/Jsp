@@ -1,0 +1,33 @@
+INDEX VERSION 1.131
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1057680085.index
+\JSP16RegistrationForm\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2757170489.index
+\JSP10JSTLSqlTags\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\44258867.index
+\JSP04CustomTag\src
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1328105193.index
+\JSP12ActionElements\src
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3032281344.index
+\JSP15MVC\src
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\942967962.index
+\JSP13UseBean\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3210865330.index
+\JSP02ErrorHandling\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1256859013.index
+\JSP09JSTLFunctionTags\src
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1462796698.index
+\JSP14ExpressionLanguage(EL)\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4114789586.index
+\JSP03ErrorHandlingAnd404\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3186857330.index
+\JSP06Redirect\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\975947200.index
+\JSP08JSTLCoreTags\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2423689933.index
+\JSP01Tags\src
+D:\My Work\JAVA\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1746810821.index
+\JSP11ImplicitObjects\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4167537492.index
+\JSP07RemovingJspFrmURL\src
+D:\My Work\Advanced Java Programs\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1765303432.index
+\JSP05CustomTagWithAttribute\src
