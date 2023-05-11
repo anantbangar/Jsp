@@ -17,7 +17,7 @@
 --><!-- Note:  A "Server" is not itself a "Container", so you may not
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
- --><Server port="8006" shutdown="SHUTDOWN">
+ --><Server port="8003" shutdown="SHUTDOWN">
   <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
@@ -60,7 +60,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="8081" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="JSP01Tags" path="/JSP01Tags" reloadable="true" source="org.eclipse.jst.jee.server:JSP01Tags"/><Context docBase="JSP02ErrorHandling" path="/JSP02ErrorHandling" reloadable="true" source="org.eclipse.jst.jee.server:JSP02ErrorHandling"/><Context docBase="JSP03ErrorHandlingAnd404" path="/JSP03ErrorHandlingAnd404" reloadable="true" source="org.eclipse.jst.jee.server:JSP03ErrorHandlingAnd404"/><Context docBase="JSP04CustomTag" path="/JSP04CustomTag" reloadable="true" source="org.eclipse.jst.jee.server:JSP04CustomTag"/><Context docBase="JSP05CustomTagWithAttribute" path="/JSP05CustomTagWithAttribute" reloadable="true" source="org.eclipse.jst.jee.server:JSP05CustomTagWithAttribute"/><Context docBase="JSP06Redirect" path="/JSP06Redirect" reloadable="true" source="org.eclipse.jst.jee.server:JSP06Redirect"/><Context docBase="JSP07RemovingJspFrmURL" path="/JSP07RemovingJspFrmURL" reloadable="true" source="org.eclipse.jst.jee.server:JSP07RemovingJspFrmURL"/><Context docBase="JSP08JSTLCoreTags" path="/JSP08JSTLCoreTags" reloadable="true" source="org.eclipse.jst.jee.server:JSP08JSTLCoreTags"/><Context docBase="JSP09JSTLFunctionTags" path="/JSP09JSTLFunctionTags" reloadable="true" source="org.eclipse.jst.jee.server:JSP09JSTLFunctionTags"/><Context docBase="JSP10JSTLSqlTags" path="/JSP10JSTLSqlTags" reloadable="true" source="org.eclipse.jst.jee.server:JSP10JSTLSqlTags"/><Context docBase="JSP11ImplicitObjects" path="/JSP11ImplicitObjects" reloadable="true" source="org.eclipse.jst.jee.server:JSP11ImplicitObjects"/><Context docBase="JSP12ActionElements" path="/JSP12ActionElements" reloadable="true" source="org.eclipse.jst.jee.server:JSP12ActionElements"/><Context docBase="JSP13UseBean" path="/JSP13UseBean" reloadable="true" source="org.eclipse.jst.jee.server:JSP13UseBean"/><Context docBase="JSP14ExpressionLanguage(EL)" path="/JSP14ExpressionLanguage-EL" reloadable="true" source="org.eclipse.jst.jee.server:JSP14ExpressionLanguage(EL)"/><Context docBase="JSP15MVC" path="/JSP15MVC" reloadable="true" source="org.eclipse.jst.jee.server:JSP15MVC"/><Context docBase="JSP16RegistrationForm" path="/JSP16RegistrationForm" reloadable="true" source="org.eclipse.jst.jee.server:JSP16RegistrationForm"/></Host>
+      <Context docBase="JSP12ActionElements" path="/JSP12ActionElements" reloadable="true" source="org.eclipse.jst.jee.server:JSP12ActionElements"/></Host>
     </Engine>
   </Service>
 </Server>
