@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View PDF</title>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+</head>
+<body>
+    <button onclick="viewPDF()">View PDF</button>
+
+    <script>
+        function viewPDF() {
+            // Create a new tab
+            var newTab = window.open('', '_blank');
+
+            // Fetch the PDF content from the server
+            fetch('/your-app-context/viewPDF')
+                .then(response => response.blob())
+                .then(blob => {
+                    // Use PDF.js to display the PDF in the new tab
+                    pdfjsLib.getDocument(blob).promise.then(pdfDoc => {
+                        var pageNum = 1;
+                        pdfDoc.getPage(pageNum).then(page => {
+                            var canvas = document.createElement('canvas');
+                            var viewport = page.getViewport({ scale: 1.0 });
+                            canvas.width = viewport.width;
+                            canvas.height = viewport.height;
+                            var context = canvas.getContext('2d');
+
+                            page.render({
+                                canvasContext: context,
+                                viewport: viewport
+                            });
+
+                            newTab.document.body.appendChild(canvas);
+                        });
+                    });
+                });
+        }
+    </script>
+</body>
+</html>
